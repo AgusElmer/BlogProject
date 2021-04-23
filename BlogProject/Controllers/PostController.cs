@@ -16,7 +16,7 @@ namespace BlogProject.Controllers
         {
             _db = db;
         }
-        public IActionResult Index(int? id)
+        public IActionResult Index()
         {
 
             IEnumerable<Post> objList = _db.Post;
